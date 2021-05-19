@@ -1,4 +1,4 @@
-# CodeFlip
+# CoinFlip
 CoinFlip implemented by tail recursion:
 
 [Source]
