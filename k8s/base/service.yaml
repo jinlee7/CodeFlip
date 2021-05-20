@@ -1,5 +1,7 @@
 kind: ServiceUnit
-apiVersion: kustomize.config.k8s.io/v1beta
+apiVersion: kustomize.config.k8s.io/v1beta1
+metadata:
+  name: coin-flip
 spec:
   image: coinflip
   resources:
