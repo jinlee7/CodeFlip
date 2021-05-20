@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      -name: ls -alF
-       run: |
+    - name: ls -alF
+      run: |
         ls -alF
         pwd
