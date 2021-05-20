@@ -1,1 +1,15 @@
-
+kind: ServiceUnit
+apiVersion: kustomize.config.k8s.io/v1beta
+spec:
+  image: coinflip
+  resources:
+    limits:
+      cpu: 1500m
+      memory: 1500Mi
+    requests:
+      cpu: 500m
+      memory: 500Mi
+  runtime:
+    deployment:
+      replicas: 0
+      ingresses: []
